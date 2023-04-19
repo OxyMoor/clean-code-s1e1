@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
   .more-info-wrap {
     text-align: center;
   }
+  
 }
 
 .main {
