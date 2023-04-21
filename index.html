@@ -8,7 +8,7 @@
       media="screen" 
       charset="utf-8">
 </head>
-<body>
+<body class="body">
   <section class="matrix">
     <img class="matrix__img" src="./eisenhower-matrix.jpg" alt="image: matrix">
     <a class="matrix__link" 
@@ -17,11 +17,11 @@
     </a>
   </section>
   <section class="main">
-    <div id="add-item">
+    <div class="main__inner" id="add-item">
       <label class="label add-item__label" for="new-task">Add Item</label>
       <div class="add-item__task-wrap">
-        <input class="main__task-input add-item__task-input" id="new-task" type="text">
-        <button class="btn add-item__btn">Add</button>
+        <input class="add-item__task-input" id="new-task" type="text">
+        <button class="add-item__btn">Add</button>
       </div>
     </div>
     <h3 class="main__title">Todo</h3>
@@ -30,17 +30,17 @@
         <input class="list__checkbox" type="checkbox">
         <label class="list__task-label">Pay Bills</label>
         <input class="main__task-input" type="text">
-        <button class="list__edit-btn edit">Edit</button>
-        <button class="list__delete-btn delete">
+        <button class="list__edit-btn">Edit</button>
+        <button class="list__delete-btn">
           <img class="list__delete-img" src="./remove.svg" alt="icon: remove icon">
         </button>
       </li>
-      <li class="list__item edit-mode">
+      <li class="list__item list__item_edit-mode">
         <input class="list__checkbox" type="checkbox">
         <label class="list__task-label">Go Shopping</label>
         <input class="main__task-input" type="text" value="Go Shopping">
-        <button class="list__edit-btn edit">Save</button>
-        <button class="delete">
+        <button class="list__edit-btn">Save</button>
+        <button class="list__delete-btn">
           <img class="list__delete-img" src="./remove.svg" alt="icon: remove icon">
         </button>
       </li>
@@ -51,8 +51,8 @@
         <input class="list__checkbox" type="checkbox" checked>
         <label class="list__task-label">See the Doctor</label>
         <input class="main__task-input" type="text">
-        <button class="list__edit-btn edit">Edit</button>
-        <button class="list__edit-btn delete">
+        <button class="list__edit-btn">Edit</button>
+        <button class="list__delete-btn">
           <img class="list__delete-img" src="./remove.svg" alt="icon: remove icon">
         </button>
       </li>
